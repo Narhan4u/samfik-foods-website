@@ -194,6 +194,7 @@ p { margin: 0 0 1em; }
 .service p { color: var(--muted-light); font-size: .95rem; margin: 0; }
 
 /* ===== Why ===== */
+#why { overflow: hidden; }
 .why { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
 .why__visual { position: relative; aspect-ratio: 1; display: grid; place-items: center; }
 .why__visual::before { content: ""; position: absolute; inset: 4%; border-radius: 50%; background: repeating-conic-gradient(from 0deg, var(--flame) 0 10deg, var(--gold) 10deg 20deg); opacity: .12; animation: spin 60s linear infinite; }
